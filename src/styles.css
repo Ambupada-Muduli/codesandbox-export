@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap");
+
+.App {
+  width: 95%;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Poppins;
+}
+.title {
+  font-weight: 700;
+}
+
+.slider {
+  width: 100%;
+}
+
+.lables {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tenurecontainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tenure {
+  width: 15%;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  background-color: greenyellow;
+}
+
+.selected {
+  background-color: hotpink;
+  color: white;
+}
